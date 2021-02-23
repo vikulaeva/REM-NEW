@@ -14,11 +14,31 @@ h3 {
 h4 {
     color: rgb(88, 128, 129);
 }
-header {
-    background-color: rgb(209, 209, 209);
+/* div {
+    border: solid 1px rgb(99, 64, 131);
+    width: 150px;
+} */
+
+.card {
+    background-color: lavender;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid rgb(201, 189, 189);
+    margin: 50px 30px 10px 30px;
+}
+img {
+    width: 100%;
+}
+.logo-header {
+    width: 100px;
 }
 
-div {
-    border: solid 0,5px blueviolet;
-    width: 100px;
+.button {
+    width: 150px;
+    color: rgb(255, 255, 255); 
+}
+#hero { 
+    height: 30vh;
+    /* background-color: cornsilk; */
+text-align: center;
 }
