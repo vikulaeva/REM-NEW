@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
     margin-block: 0.2rem;
 }
@@ -45,30 +45,41 @@ p {
     width: 150px;
 } */
 
-
-img {
-    width: 100%;
-}
-.logo-header {
-    width: 100px;
-}
-
-.header {
+header {
     background-color: darkgray;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
 
-.container {
-    /* display: flex; 
-    flex-direction: row;
-    justify-content:space-between;
-    padding: 10px 20px;
-    height: 15vh;
-    align-items: center; */
-    background-color: cornflowerblue;
-    display: flex;
+button {
+    background-color: navy;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-large {
+    width: 300px;
+    height: 80px;
+    font-size: 21px;
+}
+
+.card {
+    background-color: lavender;
+    padding: 20px;    
+    width: 250px;
+    margin: 50px 30px 10px 30px;
+}
+
+#card {
+    justify-content: space-evenly;
+}
+
+img {
+    width: 100%;
+}
+.logo-header {
+    width: 100px;
 }
 
 #hero {
@@ -83,27 +94,17 @@ img {
     align-items: center;
 }
 
-button {
-    background-color: navy;
-    color: white;
-    border-radius: 50px;
-}
 
-.btn-large {
-    width: 300px;
-    height: 80px;
-    font-size: 21px;
-}
+
 #about {
     height: 50vh;
 
 }
 
 #contact {
-height: 100vh;
+height: 600px;
 background-color: rgb(218, 226, 226);
 /* border: 5px solid blueviolet; */
-background-position: center;
 padding: 50px 150px;
 
 }
@@ -112,15 +113,8 @@ padding: 50px 150px;
     height: 50vh;
     }
 
+    .container {
+        display: flex; /* or inline-flex */
+    }
 
-    .card {
-        background-color: lavender;
-        padding: 20px;    
-        width: 250px;
-        margin: 50px 30px 10px 30px;
-    }
-    
-    #card {
-        justify-content: space-evenly;
-    }
     
