@@ -7,6 +7,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Roboto Slab', serif;
+    margin-block: 0.2rem;
 }
 h1 {
     color: rgb(0, 54, 170);
@@ -24,6 +25,21 @@ h4 {
     color: rgb(88, 128, 129);
     font-size: 1.333rem;
 }
+
+h5 {
+    font-size: 1.414rem;
+
+}
+
+h6 { 
+
+}
+
+p {
+    line-height: 1.6em;
+    margin-block: 0.6em;
+}
+
 /* div {
     border: solid 1px rgb(99, 64, 131);
     width: 150px;
@@ -43,13 +59,23 @@ img {
     width: 100px;
 }
 
+.header {
+    background-color: burlywood;
+justify-content: space-between;
+
+}
+
+.container {
+    display: flex; 
+}
+
 #hero { 
-    height: 30vh;
+    height: 100vh;
     /* background-color: cornsilk; */
 text-align: center;
 background-image: url('../img/flower.jpg');
-background-size: auto;
-background-position: center;
+background-size: cover;
+/* background-position: center; */
 }
 button {
     background-color: navy;
@@ -68,9 +94,16 @@ button {
 }
 
 #contact {
-height: 60vh;
+height: 100vh;
+background-color: rgb(218, 226, 226);
+/* border: 5px solid blueviolet; */
+background-position: center;
+padding: 50px 150px;
+
 }
 
 #footer {
     height: 50vh;
     }
+
+    
