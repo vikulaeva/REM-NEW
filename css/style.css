@@ -45,13 +45,7 @@ p {
     width: 150px;
 } */
 
-.card {
-    background-color: lavender;
-    width: 250px;
-    padding: 20px;
-    border: 2px solid rgb(201, 189, 189);
-    margin: 50px 30px 10px 30px;
-}
+
 img {
     width: 100%;
 }
@@ -60,23 +54,35 @@ img {
 }
 
 .header {
-    background-color: burlywood;
-justify-content: space-between;
-
+    background-color: darkgray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .container {
-    display: flex; 
+    /* display: flex; 
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px 20px;
+    height: 15vh;
+    align-items: center; */
+    background-color: cornflowerblue;
+    display: flex;
 }
 
-#hero { 
+#hero {
     height: 100vh;
-    /* background-color: cornsilk; */
-text-align: center;
-background-image: url('../img/flower.jpg');
-background-size: cover;
-/* background-position: center; */
+    /* background-color: tomato; */
+    text-align: center;
+    background-image: url('../img/Grass.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 button {
     background-color: navy;
     color: white;
@@ -106,4 +112,15 @@ padding: 50px 150px;
     height: 50vh;
     }
 
+
+    .card {
+        background-color: lavender;
+        padding: 20px;    
+        width: 250px;
+        margin: 50px 30px 10px 30px;
+    }
+    
+    #card {
+        justify-content: space-evenly;
+    }
     
