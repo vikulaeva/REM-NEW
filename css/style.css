@@ -117,4 +117,35 @@ padding: 50px 150px;
         display: flex; /* or inline-flex */
     }
 
-    
+    /* a:link { 
+        background-color: bisque;
+        text-decoration: cadetblue;
+    } */
+
+    a:hover { 
+        background-color: rgb(31, 21, 170);
+
+    }
+    /* a:visited {
+background-color: coral;
+    } */
+
+    a:active {
+        background-color: rgb(80, 76, 74);
+    }
+        
+    a.menu:link, a.menu:visited {
+        background: none;
+    }
+    a.menu:hover {
+        color: crimson;
+    }
+
+    /* section div h3 {
+        border: 2px; dashed  
+    } */
+    a.icon:hover {
+        background-color: darkgreen;
+        color: darksalmon;
+        border-radius: 50%;
+    }
